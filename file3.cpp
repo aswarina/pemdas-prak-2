@@ -4,3 +4,12 @@ using namespace std;
 
 // deklarasi global
 int p, l;
+
+// Implementasi prosedur dan fungsi
+void input() {
+    cout << "Masukkan panjang = ";
+    cin >> p;
+    cout << "Masukkan lebar = ";
+    cin >> l;
+
+}
