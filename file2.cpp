@@ -10,7 +10,7 @@ void input() {
     cout << "Masukkan panjang = ";
     cin >> p;
     cout << "Masukkan lebar = ";
-    cin >> 1;
+    cin >> l;
 }
 
 int luaspersegi(){
@@ -21,3 +21,8 @@ void output (){
     cout << "Hasilnya = " << luaspersegi () << endl;
     cout << "terima kasih";
 }
+
+int main() { //mulai
+    input();
+    output();
+}//selesai
